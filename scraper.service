@@ -6,7 +6,6 @@ After=network.target
 User=root
 Group=root
 Type=simple
-Restart=always
 WorkingDirectory=/app/scraperv2
 ExecStart=/app/scraperv2/env/bin/python3.11 /app/scraperv2/main.py
 
